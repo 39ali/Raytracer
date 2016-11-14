@@ -21,7 +21,7 @@ int main()
 	}
 
 
-	CreateBMP("hoi.bmp", w, h, 72, pixels);
+	CreateBMP("res/hoi.bmp", w, h, 72, pixels);
 
 	return 0;
 }

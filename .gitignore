@@ -1,3 +1,5 @@
 RayTracer.VC.db
 /bin
 /*.opendb
+/.vs/RayTracer/v14
+/RayTracer.sdf
