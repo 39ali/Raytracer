@@ -4,13 +4,11 @@ class Ray
 {
 
 public:
-	Vec3 origin, direction;
-	Ray(Vec3 Origin, Vec3 Direction);
+	Ray(const Vec3& Origin, const Vec3& Direction);
 	Ray();
-    ~Ray();
+	~Ray();
 
 
 private:
-
-
+	Vec3 m_origin, m_direction;
 };

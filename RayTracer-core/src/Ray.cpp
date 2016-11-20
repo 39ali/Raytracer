@@ -1,14 +1,14 @@
 #include "Ray.h"
 
-Ray::Ray(Vec3 Origin, Vec3 Direction)
+Ray::Ray(const Vec3& Origin, const Vec3& Direction)
 {
-	origin = Origin;
-	direction = Direction;
+	m_origin = Origin;
+	m_direction = Direction;
 }
 Ray::Ray()
 {
-	origin = Vec3(0, 0, 0);
-	direction = Vec3(1, 0, 0);
+	m_origin = Vec3(0, 0, 0);
+	m_direction = Vec3(1, 0, 0);
 }
 Ray::~Ray()
 {
